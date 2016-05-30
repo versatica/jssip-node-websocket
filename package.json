@@ -1,6 +1,6 @@
 {
   "name": "jssip-node-websocket",
-  "version": "1.0.0-pre.1",
+  "version": "1.0.0",
   "description": "JsSIP.Socket interface for the Node.js based on the websocket module",
   "main": "index.js",
   "repository": {

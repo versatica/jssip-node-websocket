@@ -1,6 +1,6 @@
 ## jssip-node-websocket
 
-`JsSIP.Socket` interface for the Node.js based on the [websocket](https://www.npmjs.com/package/websocket) module.
+`JsSIP.Socket` interface for Node.js based on the [websocket](https://www.npmjs.com/package/websocket) module.
 
 The aim of this module is to provide [JsSIP](http://jssip.net) with WebSocket support when running in Node.js.
 
