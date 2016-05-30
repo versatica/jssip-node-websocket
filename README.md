@@ -21,7 +21,7 @@ $ npm install jssip-node-websocket --save
 ## Usage
 
 ```javascript
-const jssip = require('jssip-node-websocket');
+const JsSIP = require('jssip');
 const NodeWebSocket = require('jssip-node-websocket');
 
 let socket = new NodeWebSocket('wss://foo.example.com');
