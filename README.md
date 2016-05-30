@@ -44,7 +44,23 @@ The module exports a `NodeWebSocket` class conforming with the `JsSIP.Socket` in
 ### `var socket = new NodeWebSocket(url, [options])`
 
 * `url` (String): The WebSocket URL.
-* `options` (Object): An object with fields `origin`, `headers`, `requestOptions` and `clientConfig` matching the same meaning and format of the parameters given to the [websocket.W3CWebSocket](https://github.com/theturtle32/WebSocket-Node/blob/08fc659153f9f77744b97e5db307278a580c105c/docs/W3CWebSocket.md) class constructor.
+* `options` (Object): An object with fields `origin`, `headers`, `requestOptions` and `clientConfig` matching the same meaning and format of the parameters given to the [websocket.W3CWebSocket](https://github.com/theturtle32/WebSocket-Node/blob/v1.0.23/docs/W3CWebSocket.md) class constructor.
+
+
+## F.A.Q.
+
+##### How to allow invalid TLS certificates?
+
+```javascript
+var socket = new Socket('wss://foo.example.com',
+  {
+    origin         : 'https://www.example.com',
+    requestOptions :
+    {
+      agent : new https.Agent({ rejectUnauthorized: false })
+    }
+  });
+```
 
 
 ## Author
