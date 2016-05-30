@@ -41,10 +41,10 @@ let ua = new JsSIP.UA(
 The module exports a `NodeWebSocket` class conforming with the `JsSIP.Socket` interface.
 
 
-### `var socket = new NodeWebSocket(url, origin, headers, requestOptions, clientConfig)`
+### `var socket = new NodeWebSocket(url, [options])`
 
 * `url` (String): The WebSocket URL.
-* `origin`, `headers`, `requestOptions` and `clientConfig` match the same meaning and format of the same parameters given to the [websocket.W3CWebSocket](https://github.com/theturtle32/WebSocket-Node/blob/08fc659153f9f77744b97e5db307278a580c105c/docs/W3CWebSocket.md) class constructor.
+* `options` (Object): An object with fields `origin`, `headers`, `requestOptions` and `clientConfig` matching the same meaning and format of the parameters given to the [websocket.W3CWebSocket](https://github.com/theturtle32/WebSocket-Node/blob/08fc659153f9f77744b97e5db307278a580c105c/docs/W3CWebSocket.md) class constructor.
 
 
 ## Author
