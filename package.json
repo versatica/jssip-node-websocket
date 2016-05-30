@@ -1,0 +1,34 @@
+{
+  "name": "jssip-node-websocket",
+  "version": "1.0.0-pre.1",
+  "description": "JsSIP.Socket interface for the Node.js based on the websocket module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/versatica/jssip-node-websocket.git"
+  },
+  "author": "Iñaki Baz Castillo <versatica@aliax.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/versatica/jssip-node-websocket/issues"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "websocket": "^1.0.23"
+  },
+  "devDependencies": {
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jscs-stylish": "^1.3.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-shell": "^0.5.2",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.2.0"
+  },
+  "peerDependencies": {
+    "jssip": "^2.0.0"
+  }
+}
